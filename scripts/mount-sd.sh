@@ -17,7 +17,7 @@ if [ "$ACTION" = "add" ]; then
 		ln -sf /dev/mmcblk1 $SDCARD
 	else
 		exit $?
-	fi        
+	fi
 	su $DEVICEUSER -c "mkdir -p $MNT"
 	case "${TYPE}" in
 		vfat|ntfs)
