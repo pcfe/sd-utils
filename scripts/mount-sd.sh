@@ -41,4 +41,3 @@ else
 		rm -f $SDCARD
 	fi
 fi
-
